@@ -4,3 +4,6 @@ window.asafonov.events = {
 };
 window.asafonov.settings = {
 };
+window.onerror = (msg, url, line) => {
+  alert(`${msg} on line ${line}`);
+}
